@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">TechnoSpandan</string>
+
+
+    <string name="title_activity_login">Login</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_technical">technical</string>
+    <string name="title_activity_nav">nav</string>
+    <string name="title_technical">Technical</string>
+    <string name="title_non_technical">Non-Technical</string>
+    <string name="title_sports">Sports</string>
+    <string name="title_activity_event">Event</string>
+    <string-array name="branch">
+        <item>CSE</item>
+        <item>EE</item>
+        <item>MSME</item>
+        <item>CHE</item>
+        <item>MEC</item>
+        <item>IT</item>
+    </string-array>
+    <string-array name="batch">
+        <item>2K17</item>
+        <item>2K16</item>
+        <item>2K15</item>
+    </string-array>
+    <string-array name="event">
+        <item>Bite the byte</item>
+        <item>Constructomania</item>
+        <item>Electromatrix</item>
+        <item>Padarth</item>
+        <item>Rocket War</item>
+        <item>Spellbee</item>
+        <item>ShowBuzz</item>
+        <item>XYZ</item>
+        <item>Cricket</item>
+        <item>Football</item>
+        <item>Badminton</item>
+        <item>Chess</item>
+    </string-array>
+    <string-array name="technicaldescription">
+        <item>\n
+        COME PROGRAM AND SHOW YOUR SKILLS...\n
+        This event is about to test your programing skills.\n
+        You\'ll get few problems to solve through programs.\n\n
+        TWO LEVEL TESTS...\n
+        \t  1.General Cyber Awareness\n
+        \t  2.Hard Time with Language\n\n
+
+        Fee->30/head\n
+
+        COME IF YOU DARE!</item>
+
+        <item>
+           COME TO DESIGN YOUR DREAMS...\n\n
+
+         This event is to test your civil and designing skills.\n
+         You\'ll be asked to design a bridge as per the requirements of the problem
+            given to you.\n\n
+
+         Fee->Rs30/head\n
+
+         COME TO WIN YOUR DREAM!!
+
+        </item>
+        <item>
+        COME TO CHECK YOUR ELECTRICAL AND ELECTRONICS KNOWLEDGE...\n\n
+
+        This event is conducted in two parts...\n
+            1.General Quizz\n
+            2.Circuit Designing\n\n
+
+        Fee->Rs30/head\n
+
+        GET AMAZED BY ELECTROLYSIS!!
+
+    </item>
+        <item>
+            An SURPRISINNG EVENT..\n\n
+
+            Fee->Free\n
+        </item>
+    </string-array>
+    <string-array name="nontechnicaldescription">
+        <item>
+            CHECK YOUR TRAJECTORY TARGET...\n\n
+
+            A 2 level event..\n
+                1.Height event\n
+                2.Target Hiting\n\n
+
+            Fee->Rs50/head(a team of two)\n
+        </item>
+        <item>
+
+            ENGLISH-WINGLISH\n\n
+
+            This one is to test your english spellings.\n
+
+            Fee->Free\n
+
+        </item>
+        <item>
+
+            ARE YOU A CINEMATOGRAPHER...GET CHECKED!!\n\n
+
+            This is movie event.\n
+            You have to create a meaningful movie to win.\n\n
+
+            Fee->Free\n
+        </item>
+        <item>
+
+            XXXXYYYYYZZZZ!!!!\n\n
+
+        </item>
+    </string-array>
+    <string-array name="sportsdescription">
+        <item>
+
+            A TRUE BATSMAN SHOULD IN MOST OF HIS STROKES TELL THE TRUTH ABOUT HIMSELF...\n\n
+
+        make a team AND chalenge others..\n\n
+
+        Fee->free(Team of 11 from same stream)\n
+        </item>
+        <item>
+
+            WINING ISN\'T EVERYTHING...ITS\' THE ONLY THING.\n\n
+
+            Get ready to drible the ball through 11........GOAL!!!\n\n
+
+            Fee->Free(team of 11 from same branch)
+        </item>
+        <item>
+
+            WE PUT THE bad IN badminton...\n\n
+
+            Pay hard to get off the riddles...\n\tNEED HARD STAMINA!!!\n\n
+
+            Fee->Free
+
+        </item>
+        <item>
+
+            WHEN YOU SEE A GOOD MOVE WAIT- LOOK FOR A BETTER ONE...\n\n
+
+            Get yourself drizzeled by others move....its not frevolus be careful!!\n\n
+
+            Fee->Free
+        </item>
+    </string-array>
+
+    <string-array name="technical">
+        <item>Byte the bits</item>
+        <item>Constructomania</item>
+        <item>Electromatrix</item>
+        <item>Padarth</item>
+    </string-array>
+    <string-array name="nontechnical">
+        <item>Rocket War</item>
+        <item>Spellbee</item>
+        <item>Showbuzz</item>
+        <item>Xyz</item>
+    </string-array>
+    <string-array name="sports">
+        <item>Cricket</item>
+        <item>Football</item>
+        <item>Badminton</item>
+        <item>Chess</item>
+    </string-array>
+</resources>

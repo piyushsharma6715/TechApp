@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.piyush.technospandan.record">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/textView27"
+        android:layout_alignStart="@+id/textView27"
+        android:layout_below="@+id/button11"
+        android:layout_marginTop="19dp">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/table1"
+                android:stretchColumns="*">
+                <TableRow>
+                    <TextView
+                        android:layout_marginLeft="2dp"
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/cell_shape"
+                        android:text="Cand_ ID"/>
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell_shape"
+                        android:layout_width="wrap_content"
+                        android:text="Name"/>
+                    <TextView
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/cell_shape"
+                        android:text="Branch"/>
+                    <TextView
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/cell_shape"
+                        android:text="Batch"/>
+                    <TextView
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/cell_shape"
+                        android:text="Event"/>
+                    <TextView
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/cell_shape"
+                        android:text="Date"/>
+                    <TextView
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/cell_shape"
+                        android:text="Mobile"/>
+                </TableRow>
+
+
+            </TableLayout>
+
+        </HorizontalScrollView>
+    </ScrollView>
+
+</RelativeLayout>

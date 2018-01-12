@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.piyush.technospandan.registerA">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="367dp"
+        android:layout_height="37dp"
+        android:gravity="center"
+        android:text="Registration Successful !!!"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="59dp"
+        android:layout_marginTop="74dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:background="#fbeb55"
+        android:id="@+id/imageButton2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/ic_home_black_24dp"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="142dp"
+        android:onClick="home"
+        android:layout_marginTop="78dp"
+        android:layout_marginLeft="146dp"
+        android:layout_marginStart="146dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5" />
+
+</RelativeLayout>

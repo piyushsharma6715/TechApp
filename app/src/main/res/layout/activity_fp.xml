@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1caca"
+    tools:context="com.example.piyush.technospandan.fp">
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:background="#296dda"
+        android:text="search"
+        android:onClick="search"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="253dp"
+        android:layout_alignBaseline="@+id/button8"
+        android:layout_alignBottom="@+id/button8"
+        android:layout_toLeftOf="@+id/textView26"
+        android:layout_toStartOf="@+id/textView26" />
+
+    <Button
+        android:id="@+id/button9"
+        android:onClick="show"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:background="#296dda"
+        android:text="ShowRecord"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="125dp"
+        android:layout_marginTop="56dp"
+        android:layout_below="@+id/textView26"
+        android:layout_alignLeft="@+id/button7"
+        android:layout_alignStart="@+id/button7" />
+
+    <Button
+        android:id="@+id/button10"
+        android:onClick="edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:background="#296dda"
+        android:text="Edit"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="192dp"
+        android:layout_alignBaseline="@+id/button9"
+        android:layout_alignBottom="@+id/button9"
+        android:layout_alignLeft="@+id/button8"
+        android:layout_alignStart="@+id/button8" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:background="#296dda"
+        android:onClick="delete"
+        android:text="delete"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="315dp"
+        android:layout_marginRight="52dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginTop="100dp"
+        android:layout_below="@+id/button10"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME\n  ADMIN"
+        tools:layout_editor_absoluteX="135dp"
+        android:textSize="30dp"
+        android:textColor="#ddc10a"
+        tools:layout_editor_absoluteY="38dp"
+        android:layout_marginTop="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

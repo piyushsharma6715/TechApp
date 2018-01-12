@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.piyush.technospandan.search">
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="18dp"
+        android:text="Search By" />
+
+    <Spinner
+        android:id="@+id/spinner6"
+        android:layout_marginLeft="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView27" />
+
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView27"
+        android:layout_alignStart="@+id/textView27"
+        android:layout_below="@+id/spinner6"
+        android:layout_marginLeft="46dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="62dp"
+        android:layout_marginRight="62dp"
+        android:layout_marginTop="44dp"
+        android:onClick="searchRecord"
+        android:text="Search"
+        android:layout_below="@+id/editText12"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/textView27"
+        android:layout_alignStart="@+id/textView27"
+        android:layout_below="@+id/button11"
+        android:layout_marginTop="19dp">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/table"
+                android:stretchColumns="*">
+                <TableRow>
+                    <TextView
+                        android:layout_marginLeft="2dp"
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/cell_shape"
+                        android:text="Cand_ ID"/>
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell_shape"
+                        android:layout_width="wrap_content"
+                        android:text="Name"/>
+                    <TextView
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/cell_shape"
+                        android:text="Branch"/>
+                    <TextView
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/cell_shape"
+                        android:text="Batch"/>
+                    <TextView
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/cell_shape"
+                        android:text="Event"/>
+                    <TextView
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/cell_shape"
+                        android:text="Date"/>
+                    <TextView
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/cell_shape"
+                        android:text="Mobile"/>
+                </TableRow>
+
+
+            </TableLayout>>
+
+            </HorizontalScrollView>
+    </ScrollView>
+</RelativeLayout>
